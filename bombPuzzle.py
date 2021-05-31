@@ -36,7 +36,7 @@ def getPossibilityRow(i=0):
 				   'ex: '+ exampleTextArray[i] +'\n' + 
 				   '    ')
 	row = input(displayText)
-	return row.lstrip().rstrip().split(" ")
+	return row.lstrip().rstrip().split()
 
 def givenPossibilitiesFindPassword(possibilities=possibilities, passwords=passwords):
 	wordSetList = []
